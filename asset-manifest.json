@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/redux-news/static/css/main.bddc981a.css",
-    "main.js": "/redux-news/static/js/main.a27b9072.js",
+    "main.js": "/redux-news/static/js/main.6185df33.js",
     "static/media/main-loader.gif": "/redux-news/static/media/main-loader.f58fb6998e78b3b474b4.gif",
     "static/media/load-animation.gif": "/redux-news/static/media/load-animation.b2a8fa3d8baba9fc720f.gif",
     "index.html": "/redux-news/index.html",
     "main.bddc981a.css.map": "/redux-news/static/css/main.bddc981a.css.map",
-    "main.a27b9072.js.map": "/redux-news/static/js/main.a27b9072.js.map"
+    "main.6185df33.js.map": "/redux-news/static/js/main.6185df33.js.map"
   },
   "entrypoints": [
     "static/css/main.bddc981a.css",
-    "static/js/main.a27b9072.js"
+    "static/js/main.6185df33.js"
   ]
 }
