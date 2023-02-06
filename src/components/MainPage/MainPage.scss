@@ -1,0 +1,38 @@
+$global--padding: 20px;
+$global--margin: 10px;
+$dark--bg-color: rgb(177, 169, 169);;
+
+.main--page{
+    padding: $global--padding;
+    margin: $global--margin;
+    background-color: $dark--bg-color;
+    .preloader{
+        position:absolute;
+        top: 95px;
+        left: 250px;
+        width: 50px;
+            img{
+                width: 50px;
+            }
+        opacity: 0;    
+        animation-name: preloader-main;
+        animation-duration: 2s;
+    }
+}
+header{
+    margin-bottom: $global--margin;
+    background-color: rgb(222, 212, 240);
+    padding: $global--padding;
+}
+
+@keyframes preloader-main {
+    0%{
+        opacity: 100;
+    }
+    90%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0;
+    }
+}
