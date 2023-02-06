@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-        <Route path='/redux-hacker-news' element={<Navigate to='/'/>}/>
+        <Route path='/redux-news' element={<Navigate to='/'/>}/>
         <Route path ='/' element ={<MainPage />}/>
         <Route path ='/newspage/:item' element={<NewsPage />}/>
         </Routes>
